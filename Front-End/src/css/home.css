@@ -1,0 +1,27 @@
+.home-container{
+    margin: 0;
+    padding: 0;
+}
+.video-container{
+    display: flex;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.top-three-container{
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 20px 20px;
+    background-color: #0f0023;
+    box-shadow: 2px 2px 5px rgb(45, 45, 45);
+}
+.top-three-container img{
+    box-shadow: 2px 2px 5px rgb(101, 100, 100);
+    min-height: 200px;
+    max-height: 400px;
+    min-width: 200px;
+    max-width: 400px;
+    margin: 20px 20px;
+}
