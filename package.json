@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "iframe": "^1.0.0",
+    "mongodb": "^5.9.2",
+    "react-iframe": "^1.8.5",
+    "typeorm": "^0.3.20"
+  }
+}

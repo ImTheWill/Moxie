@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+
+.header-container{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    min-height: 50px;
+    justify-content: center;
+    font-family: "Philosopher", Arial;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 20px;
+    right: 40px;
+    text-align: center;
+    border-bottom: 2px solid #1b0935;
+    
+}
+.logo-container img{
+    padding: 0;
+    margin: 0;
+    width: 40px;
+}
+.header-container h3{
+    color: white;
+
+}
+.list-container{
+    margin-left: auto;
+}
+
+.header-container ul li{
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 40px;
+    color: white;
+    
+}
+.header-container ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header-container ul:hover  a:hover{
+    text-decoration: none;
+    color: rgb(204, 0, 255);;
+}
+
+  
+

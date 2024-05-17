@@ -1,0 +1,36 @@
+.footer-container{
+    background-color: black;
+    color:white;
+    font-family: "Philosopher", Arial;
+}
+.main-content{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 85%;
+    border-bottom: 2px solid #4b00b2;
+    margin: 0 auto;
+}
+.main-content ul{
+    list-style: none;
+    justify-content: space-between;
+}
+
+.sub-content{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.sub-content ul{
+    list-style: none;
+    display: flex;
+    padding: 0px 5px;
+    
+}
+.sub-content ul li {
+    padding: 0px 1px
+}
+
+
