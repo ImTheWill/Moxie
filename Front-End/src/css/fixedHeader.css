@@ -1,35 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
 
 
-.header-container{
+.fixed-header-container{
     display: flex;
     align-items: center;
-    position: fixed;
+    position: static;
     min-height: 50px;
     justify-content: center;
     font-family: "Philosopher", Arial;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 0;
     left: 20px;
-    right: 40px;
+    right: 20px;
     text-align: center;
     border-bottom: 2px solid #1b0935;
+    background-color: #1b0935;
+    box-shadow: 0px 1px 5px whitesmoke;
     
 }
-.logo-container img{
+.fixed-logo-container img{
     padding: 0;
     margin: 0;
     width: 40px;
 }
-.header-container h3{
+.fixed-header-container h3{
     color: white;
 
 }
-.list-container{
+.fixed-list-container{
     margin-left: auto;
 }
 
-.header-container ul li{
+.fixed-header-container ul li{
     display: inline-flex;
     justify-content: space-between;
     list-style: none;
@@ -38,11 +40,11 @@
     color: white;
     
 }
-.header-container ul li a{
+.fixed-header-container ul li a{
     text-decoration: none;
     color: white;
 }
-.header-container ul:hover  a:hover{
+.fixed-header-container ul:hover  a:hover{
     text-decoration: none;
     color: rgb(204, 0, 255);;
 }

@@ -42,10 +42,10 @@ const footer = () => {
         <div className="sub-content">
           <h3>©️2024 Moxie Corportion, USA. All rights reserved</h3>
           <ul className="social-icons">
-            <li><img src = {twitter} width  = "40px" height= "40px" /></li>
-            <li><img src = {instagram} width  = "40px" height= "40px" /></li>
-            <li><img src = {linkedin} width  = "40px" height= "40px" /></li>
-            <li><img src = {youtube} width  = "40px" height= "40px" /></li>
+            <li><a href = "#"><img src = {twitter} width  = "40px" height= "40px" /></a></li>
+            <li><a href = "#"><img src = {instagram} width  = "40px" height= "40px" /></a></li>
+            <li><a href = "#"><img src = {linkedin} width  = "40px" height= "40px" /></a></li>
+            <li><a href = "#"><img src = {youtube} width  = "40px" height= "40px" /></a></li>
           </ul>
         </div>
       </div>
